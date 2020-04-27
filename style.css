@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	font-family: 'Bangers', cursive;
+	text-align: center;	
+}
+
+.top-container{
+	background-color: #eaf6f6;
+	padding-top: 0;
+	box-shadow: 0 0 10px 0 aqua;
+	text-shadow: 0 0 5px 0 red;
+	margin-top: 0;
+	
+}
+.logo{
+	font-size: 1.875rem;
+}
+.top-container h1{
+	position: relative;
+	font-family: 'Sacramento', cursive;
+	color: #66bfbf;
+	font-size: 5.625rem;
+	 
+}
+.sun{
+	width:5%;
+	height:auto;
+	bottom: 12.5em;
+	
+}
+.mountains{
+	max-width: 25rem;
+	max-height: 25rem;
+	margin: 0 auto;
+
+}
+.cloud1{
+	width:10%;
+	height: auto;
+	left: 4rem;
+	position: relative;
+}
+
+.cloud2{
+	width:10%;
+	height: auto;
+	right: 4rem;
+	top: 1rem;
+	position: relative;
+}
+
+
+/*middle*/
+.middle-container{
+
+}
+.middle-container h2,.middle-container h3{
+	color:#66bfbf;
+}
+.profile{
+	margin:0 auto 10px auto;
+}
+.profile img{
+	width: 15%;
+	margin: 10px auto 10px auto;
+}
+
+.skills{
+	margin:10px 0 10px 0;
+	
+}
+.skill-row{;
+	width: 50%;
+	margin: 0 auto 0 auto;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+
+}
+
+.skill-1{
+	width: 25%;
+	float:left;
+	margin-right: 30px;
+}
+.skill-2{
+	width: 25%;
+	float:right;
+	margin-left: 30px;
+}
+/*contact*/
+.contact-me{
+	padding: 10px 0 30px 0;
+}
+
+.contact-me h2, .contact-me h3{
+	color:#66bfbf;
+}
+.btn{
+	background-color:#a5b869;
+	color:#eaf6f6;
+	box-shadow: 0 0 2px 0 gray;
+	border-radius: 8px;
+	padding: 3px 6px 3px;
+	font-weight: 10px
+
+}
+.btn:hover{
+	background-color:#eaf6f6;
+	color:#66bfbf;
+	
+}
+.contact-me img{
+	width: 15%;
+	margin: 10px auto 10px auto;
+
+} 
+/*bottom*/
+
+.bottom-container{
+	background-color:#66bfbf; 
+	padding: 15px 0 20px 0;
+}
+.footer-link{
+	padding-top: 5px;
+	color: #11999e;
+	margin: 0 5px;
+}
+a{
+	text-decoration: none;
+}
+	
+.bottom-container h2,bottom-container h3{
+	color:#66bfbf;
+}
+.bottom-container p{
+	padding-top: 5px;
+	color:#eaf6f6;
+	margin: none;
+	padding-top: 80px;
+}
+hr{
+	width: 4%;
+	margin: 100px auto;
+	
+}
+
+@media (max-width:1000px){
+	.cloud2{
+	width:10%;
+	height: auto;
+	right: 20px;
+	top: 1rem;
+	position: relative;
+}
+}
+
